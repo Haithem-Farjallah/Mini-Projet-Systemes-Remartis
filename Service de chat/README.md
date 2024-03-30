@@ -1,4 +1,4 @@
-# Gestion d'une liste de tâches
+# :Service de chat
 
 Ce projet est une implémentation simple d'un service de chat en utilisant des sockets en Java. Il permet à plusieurs utilisateurs de se connecter à un salon de discussion commun et d'envoyer et recevoir des messages en temps réel.
 
