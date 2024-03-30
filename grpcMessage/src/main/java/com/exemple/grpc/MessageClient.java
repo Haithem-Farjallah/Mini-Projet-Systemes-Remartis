@@ -46,7 +46,10 @@ public class MessageClient {
                             .setMessage(message)
                             .build();
                     MessagingServiceOuterClass.SendMessageResponse sendResponse = stub.sendMessage(sendRequest);
-                    System.out.println("Message envoye: " + sendResponse.getSuccess());
+                     if(sendResponse.getSuccess()){
+                       System.out.println("Message envoye avec succes ! " );
+                    }else{
+                       System.out.println("Echec d'envoi ! " );
                     break;
                 case 3:
                     running = false;
